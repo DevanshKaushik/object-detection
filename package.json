@@ -1,0 +1,22 @@
+{
+  "name": "object-detection",
+  "version": "1.0.0",
+  "description": "An api for using object detection model",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc -p ."
+  },
+  "author": "Devansh Kaushik",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
